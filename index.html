@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sana Afreen — UI/UX Designer</title>
+    <meta
+      name="description"
+      content="Sana Afreen — Aspiring UI/UX Designer crafting responsive, user-centered digital experiences. Figma, design systems, e-commerce UX."
+    />
+    <meta name="author" content="Sana Afreen" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,340;9..144,460;9..144,560&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Grain / noise overlay -->
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- ============ NAV ============ -->
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a href="#hero" class="brand">SA<span class="brand-dot">.</span></a>
+
+        <nav class="primary-nav" id="primaryNav">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+          <a
+            class="resume-pill"
+            href="https://drive.google.com/file/d/1f8o0Iqt60HLvFiKhzQd5XrACp2QDXvax/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Resume ↗</a
+          >
+        </nav>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="primaryNav"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section id="hero" class="hero">
+        <div class="hero-inner hero-inner--split">
+          <div class="hero-text">
+            <p class="eyebrow reveal">
+              Bangalore, India — Available for opportunities
+            </p>
+            <h1 class="hero-title reveal">
+              Sana Afreen designs
+              <span class="hero-title-accent">calm, user‑centered</span>
+              digital experiences.
+            </h1>
+            <p class="hero-lede reveal">
+              Aspiring <strong>UI/UX Designer</strong> with hands-on experience
+              across wireframes, prototypes, user flows and design systems in
+              Figma — backed by a working knowledge of HTML, CSS, JavaScript and
+              React that keeps my designs grounded in what's actually buildable.
+            </p>
+            <div class="hero-actions reveal">
+              <a href="#work" class="btn btn-primary">View my work</a>
+              <a href="#contact" class="btn btn-ghost">Contact me</a>
+            </div>
+          </div>
+          <div class="hero-portrait reveal" aria-hidden="false">
+            <img
+              src="assets/profile.jpg"
+              alt="Portrait of Sana Afreen"
+              width="640"
+              height="640"
+            />
+            <span class="hero-portrait-ring"></span>
+          </div>
+        </div>
+
+        <div class="hero-marquee" aria-hidden="true">
+          <div class="marquee-track">
+            <span>Figma</span><span>•</span><span>Wireframing</span
+            ><span>•</span><span>Prototyping</span><span>•</span>
+            <span>Design Systems</span><span>•</span><span>User Flows</span
+            ><span>•</span><span>E‑Commerce UX</span><span>•</span>
+            <span>Responsive Design</span><span>•</span> <span>Figma</span
+            ><span>•</span><span>Wireframing</span><span>•</span
+            ><span>Prototyping</span><span>•</span> <span>Design Systems</span
+            ><span>•</span><span>User Flows</span><span>•</span
+            ><span>E‑Commerce UX</span><span>•</span>
+            <span>Responsive Design</span><span>•</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section id="about" class="about">
+        <div class="section-inner">
+          <p class="section-eyebrow reveal">01 — About</p>
+          <div class="about-grid">
+            <h2 class="about-heading reveal">
+              I design interfaces people don't have to think twice about — then
+              help build them.
+            </h2>
+            <div class="about-copy reveal">
+              <p>
+                I'm a Computer Science undergraduate who found my focus in UI/UX
+                design. Across e‑commerce, community and healthcare projects,
+                I've worked through the full design arc — user flows, low‑ and
+                high‑fidelity wireframes, interactive prototypes and reusable
+                component systems — with an emphasis on visual hierarchy,
+                spacing, typography and clear CTA placement.
+              </p>
+              <p>
+                Because I also build with HTML, CSS, JavaScript and React, I
+                design with an understanding of what's feasible to hand off —
+                which makes for smoother designer–developer collaboration. I
+                bring the same care to accessibility basics and mobile‑first
+                responsive layouts in every file.
+              </p>
+              <ul class="about-tags">
+                <li>User‑Centered Design</li>
+                <li>Visual Hierarchy</li>
+                <li>Design Systems</li>
+                <li>E‑Commerce UX</li>
+                <li>Responsive Design</li>
+                <li>Accessibility Basics</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ WORK ============ -->
+      <section id="work" class="work">
+        <div class="section-inner">
+          <p class="section-eyebrow reveal">02 — Selected Work</p>
+          <h2 class="work-heading reveal">
+            Six projects, one thread: make the interface disappear.
+          </h2>
+        </div>
+
+        <div class="project-list">
+          <!-- PROJECT 01 -->
+          <article class="project reveal" id="project-mypet">
+            <div class="project-media">
+              <a
+                class="mockup mockup--mypet"
+                href="https://www.figma.com/design/Oy9BTuXxuErayZJ1CmQvtv/MyPet---UX-UI-Design-Pet-supplies-store--Community-?node-id=0-1&t=H0089UqWdXAJCzCS-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open MyPet Figma project"
+              >
+                <span class="mockup-chrome" aria-hidden="true"
+                  ><i></i><i></i><i></i
+                ></span>
+                <img
+                  src="assets/project-mypet1.png"
+                  alt="MyPet app screens — home, login, search and pet-family details, purple pet-brand UI"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="project-copy">
+              <span class="project-index">01</span>
+              <p class="project-category">
+                UI/UX Design · E‑Commerce · Community Platform
+              </p>
+              <h3 class="project-title">
+                MyPet — Pet Store &amp; Community Web App
+              </h3>
+              <p class="project-desc">
+                Designed a pet supplies and community-based web app using a
+                user-centered process — user flows, wireframes, high-fidelity
+                mockups and interactive prototypes. Built reusable components
+                and responsive layouts on Auto Layout and design-system
+                principles for scalability and consistency.
+              </p>
+              <ul class="project-tags">
+                <li>Figma</li>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+                <li>Auto Layout</li>
+                <li>Design Systems</li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://www.figma.com/design/Oy9BTuXxuErayZJ1CmQvtv/MyPet---UX-UI-Design-Pet-supplies-store--Community-?node-id=0-1&t=H0089UqWdXAJCzCS-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Figma Project <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 02 -->
+          <article
+            class="project project--reverse reveal"
+            id="project-cartwheel"
+          >
+            <div class="project-media">
+              <a
+                class="mockup mockup--cartwheel"
+                href="https://www.figma.com/design/lxSx722jlQ93KpXai6XDY0/Website?t=H0089UqWdXAJCzCS-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Best Cartwheel Designs Figma project"
+              >
+                <span class="mockup-chrome" aria-hidden="true"
+                  ><i></i><i></i><i></i
+                ></span>
+                <img
+                  src="assets/project-cartwheel.png"
+                  alt="Best Cartwheel Designs jewellery e-commerce UI — product grid, cart and customer reviews"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="project-copy">
+              <span class="project-index">02</span>
+              <p class="project-category">
+                E‑Commerce · UI/UX Design · Sustainable Accessories
+              </p>
+              <h3 class="project-title">
+                Best Cartwheel Designs — Accessories E‑Commerce
+              </h3>
+              <p class="project-desc">
+                A minimal, elegant e‑commerce experience for a sustainable
+                accessories and jewellery brand — spanning all‑products, product
+                detail, about, privacy‑policy and a "Make a Wish" customization
+                flow. Focused on product‑card hierarchy, jewellery specs, CTA
+                placement, filters and sustainability indicators.
+              </p>
+              <ul class="project-tags">
+                <li>Figma</li>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+                <li>Design Systems</li>
+                <li>E‑Commerce UX</li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://www.figma.com/design/lxSx722jlQ93KpXai6XDY0/Website?t=H0089UqWdXAJCzCS-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Figma Project <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 03 -->
+          <article class="project reveal" id="project-ladybug">
+            <div class="project-media">
+              <a
+                class="mockup mockup--ladybug"
+                href="https://www.figma.com/design/lxSx722jlQ93KpXai6XDY0/Website?node-id=51-8&t=H0089UqWdXAJCzCS-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Ladybug Figma project"
+              >
+                <span class="mockup-chrome" aria-hidden="true"
+                  ><i></i><i></i><i></i
+                ></span>
+                <img
+                  src="assets/project-ladybug.png"
+                  alt="Ladybug Indian snacks e-commerce UI — product grid with offers and international shipping banner"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="project-copy">
+              <span class="project-index">03</span>
+              <p class="project-category">
+                E‑Commerce · Food Brand · Responsive UI/UX
+              </p>
+              <h3 class="project-title">Ladybug — Indian Snacks E‑Commerce</h3>
+              <p class="project-desc">
+                A warm, professional e‑commerce experience for an Indian snacks
+                brand — product listing, product detail, contact and
+                terms‑of‑service pages with chef‑crafted highlights and trust
+                indicators. Focused on easy navigation, food product hierarchy,
+                freshness messaging and customer‑friendly support.
+              </p>
+              <ul class="project-tags">
+                <li>Figma</li>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+                <li>Responsive Design</li>
+                <li>E‑Commerce UX</li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://www.figma.com/design/lxSx722jlQ93KpXai6XDY0/Website?node-id=51-8&t=H0089UqWdXAJCzCS-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Figma Project <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 04 -->
+          <article class="project project--reverse reveal" id="project-school">
+            <div class="project-media">
+              <a
+                class="mockup mockup--school"
+                href="https://www.figma.com/design/yKsU62zCxhEyIA4OayuoTl/Assignments?node-id=3363-550&t=H0089UqWdXAJCzCS-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open School Website UX redesign Figma project"
+              >
+                <span class="mockup-chrome" aria-hidden="true"
+                  ><i></i><i></i><i></i
+                ></span>
+                <img
+                  src="assets/project-school1.png"
+                  alt="School website UX audit — before-and-after comparison of desktop homepage annotated with issues"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="project-copy">
+              <span class="project-index">04</span>
+              <p class="project-category">
+                UX Audit · Website Redesign · Responsive UX
+              </p>
+              <h3 class="project-title">
+                School Website — UX Analysis &amp; Homepage Redesign
+              </h3>
+              <p class="project-desc">
+                Ran a UI/UX audit of a school website across desktop and mobile,
+                surfacing issues in navigation, responsiveness, content
+                hierarchy, filtering and user flow. Redesigned key homepage
+                sections with clearer navigation, visual hierarchy, CTA
+                placement and a more parent‑focused admission journey. A process
+                piece as much as a visual one.
+              </p>
+              <ul class="project-tags">
+                <li>Figma</li>
+                <li>UX Audit</li>
+                <li>Wireframing</li>
+                <li>User Flow</li>
+                <li>Responsive Design</li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://www.figma.com/design/yKsU62zCxhEyIA4OayuoTl/Assignments?node-id=3363-550&t=H0089UqWdXAJCzCS-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View UX Redesign <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 05 -->
+          <article class="project reveal" id="project-apollo">
+            <div class="project-media">
+              <a
+                class="mockup mockup--apollo"
+                href="https://apollo-hospitals-clone.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Apollo Hospital live website"
+              >
+                <span class="mockup-chrome" aria-hidden="true"
+                  ><i></i><i></i><i></i
+                ></span>
+                <img
+                  src="assets/project-apollo.png"
+                  alt="Apollo Hospital appointment website — departments section with Cardiology, Neurology and Orthopedics cards"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <div class="project-copy">
+              <span class="project-index">05</span>
+              <p class="project-category">
+                Healthcare · UI/UX Design · Frontend Development
+              </p>
+              <h3 class="project-title">
+                Apollo Hospital — Appointment Booking Website
+              </h3>
+              <p class="project-desc">
+                Designed and developed a responsive healthcare
+                appointment-booking website — UI laid out in Figma, frontend
+                implemented in HTML, CSS and JavaScript. Focused on simple
+                navigation, a clear booking flow, accessibility and mobile‑first
+                layouts for a stressful, time‑sensitive task.
+              </p>
+              <ul class="project-tags">
+                <li>Figma</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Accessibility</li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://apollo-hospitals-clone.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Live Website <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 06 -->
+          <article
+            class="project project--reverse project--secondary reveal"
+            id="project-portfolio"
+          >
+            <div class="project-media">
+              <a
+                class="mockup mockup--portfolio"
+                href="https://portfolio-drab-six-33.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open previous personal portfolio website"
+              >
+                <span class="mockup-glyph">Portfolio</span>
+              </a>
+            </div>
+            <div class="project-copy">
+              <span class="project-index">06</span>
+              <p class="project-category">
+                Frontend Development · Personal Branding
+              </p>
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">
+                My previous personal portfolio, showcasing projects, skills and
+                certifications — built with reusable React components, Tailwind
+                CSS layouts and Framer Motion interactions. Included here as a
+                look at my frontend craft alongside the design work above.
+              </p>
+              <ul class="project-tags">
+                <li>React.js</li>
+                <li>Tailwind CSS</li>
+                <li>Framer Motion</li>
+              </ul>
+              <a
+                class="project-link"
+                href="https://portfolio-drab-six-33.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Live Website <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section id="skills" class="skills">
+        <div class="section-inner">
+          <p class="section-eyebrow reveal">03 — Skills &amp; Expertise</p>
+          <h2 class="work-heading reveal">
+            Design first. Code as a second language.
+          </h2>
+
+          <div class="skills-grid">
+            <div class="skill-block skill-block--primary reveal">
+              <h3>UI/UX Design</h3>
+              <ul>
+                <li>Figma</li>
+                <li>Adobe XD</li>
+                <li>Photoshop</li>
+                <li>FigJam</li>
+                <li>Wireframing</li>
+                <li>Low &amp; High‑Fidelity Mockups</li>
+                <li>Prototyping</li>
+                <li>User Flows</li>
+                <li>Information Architecture</li>
+                <li>Design Systems</li>
+                <li>Auto Layout</li>
+                <li>Component Libraries</li>
+                <li>Responsive Design</li>
+                <li>Mobile‑First Design</li>
+                <li>Visual Hierarchy</li>
+                <li>Typography</li>
+                <li>Color Theory</li>
+                <li>CTA Design</li>
+                <li>Usability Principles</li>
+              </ul>
+            </div>
+
+            <div class="skill-block reveal">
+              <h3>E‑Commerce UX</h3>
+              <ul>
+                <li>Product Listing Pages</li>
+                <li>Product Detail Pages</li>
+                <li>Product Cards</li>
+                <li>Filters</li>
+                <li>Navigation</li>
+                <li>Checkout Flow</li>
+                <li>Contact &amp; Terms Pages</li>
+              </ul>
+            </div>
+
+            <div class="skill-block skill-block--muted reveal">
+              <h3>Frontend Development</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
+
+            <div class="skill-block skill-block--muted reveal">
+              <h3>AI/ML Exposure</h3>
+              <ul>
+                <li>Artificial Intelligence</li>
+                <li>Python Basics</li>
+                <li>Data Handling</li>
+                <li>Machine Learning Concepts</li>
+                <li>Project‑Based Learning</li>
+              </ul>
+            </div>
+
+            <div class="skill-block skill-block--muted reveal">
+              <h3>Tools</h3>
+              <ul>
+                <li>Figma</li>
+                <li>FigJam</li>
+                <li>Canva</li>
+                <li>VS Code</li>
+                <li>Git</li>
+                <li>GitHub</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section id="experience" class="experience">
+        <div class="section-inner">
+          <p class="section-eyebrow reveal">04 — Experience</p>
+
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <div class="timeline-meta">
+                <span class="timeline-date">Jan 2026 – May 2026</span>
+                <span class="timeline-place">Bangalore, India</span>
+              </div>
+              <div class="timeline-body">
+                <h3>AI Intern — Samsung Innovation Campus Program</h3>
+                <p>
+                  Completed a structured internship in Artificial Intelligence,
+                  working through project-based tasks covering AI concepts,
+                  Python basics, data handling and machine-learning
+                  fundamentals. Took part in guided learning activities and
+                  assessments, and received an Internship Completion Certificate
+                  on completion.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-cert-grid">
+            <div class="edu-cert-col reveal">
+              <h4>Education</h4>
+              <div class="edu-card">
+                <h5>Cambridge Institute of Technology North Campus</h5>
+                <p>
+                  Bachelor of Engineering, Computer Science &amp; Engineering
+                </p>
+                <span class="edu-meta"
+                  >Bangalore, India · Dec 2022 – Mar 2026 · CGPA 9.0</span
+                >
+              </div>
+              <div class="edu-card">
+                <h5>Justice Shivaraj Patil P U College</h5>
+                <p>Pre‑University Education</p>
+                <span class="edu-meta">Raichur, India</span>
+              </div>
+            </div>
+
+            <div class="edu-cert-col reveal">
+              <h4>Certifications &amp; Achievements</h4>
+              <ul class="cert-list">
+                <li>
+                  Internship Completion Certificate — Artificial Intelligence,
+                  Samsung Innovation Campus Program
+                </li>
+                <li>
+                  Samsung Innovation Campus — Applied IoT using Raspberry Pi
+                </li>
+                <li>
+                  Participated in Build with AI Hackathon, hosted by Google
+                  Developer Groups
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section id="contact" class="contact">
+        <div class="section-inner contact-inner">
+          <p class="section-eyebrow reveal">05 — Contact</p>
+          <h2 class="contact-heading reveal">
+            Let's create meaningful<br />digital experiences.
+          </h2>
+          <p class="contact-lede reveal">
+            Open to UI/UX design roles, internships and collaborations. The
+            fastest way to reach me is email.
+          </p>
+          <div class="contact-links reveal">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ssafreen05@gmail.com&su=Portfolio%20Inquiry"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-link"
+            >
+              <span>Email</span>
+              <strong>ssafreen05@gmail.com</strong>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sana-afreen-17538b25a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-link"
+            >
+              <span>LinkedIn</span><strong>sana-afreen-17538b25a</strong>
+            </a>
+            <a
+              href="https://github.com/sanaafreen14"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-link"
+            >
+              <span>GitHub</span><strong>sanaafreen14</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="section-inner footer-inner">
+        <span>© 2026 Sana Afreen</span>
+        <div class="footer-links">
+          <a href="mailto:ssafreen05@gmail.com">Email</a>
+          <a
+            href="https://www.linkedin.com/in/sana-afreen-17538b25a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/sanaafreen14"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </div>
+        <a href="#hero" class="back-to-top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
